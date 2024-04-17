@@ -1,0 +1,123 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(144, 10, 10, 0.3)), url(https://collectingames.com/wp-content/uploads/2023/01/4cf8afc5b49cf43fc829c31d3c1b67d8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.TITULO {
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    color: aliceblue;
+    padding: 35px;
+    text-decoration: underline;
+}
+
+p{
+    color: aliceblue;
+}
+.textsub {
+    text-align: center;
+    color: rgb(220, 186, 15);
+    font-family: sans-serif;
+}
+
+.texth3 h3 {
+    text-align: center;
+    color: rgb(220, 186, 15);
+}
+
+.texth3 p {
+    text-align: center;
+    color: rgb(239, 216, 216);
+}
+
+.hero {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.nav {
+    color: rgb(147, 184, 145);
+    background-color: transparent;
+    width: 100%;
+    position: fixed;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav li a {
+    color: rgb(147, 184, 145);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav li a:hover {
+    background-color: rgb(56, 79, 97);
+    color: rgb(218, 54, 54);
+}
+
+.imgJ{
+    image-resolution: flex;
+}
+
+.contenedor {
+    color: aliceblue;
+    width: 80%;
+    margin: auto;
+    padding: 80px;
+    justify-content: center;
+}
+
+.contenedor-card {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card i {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color:firebrick;
+    color:whitesmoke;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.boton:hover {
+    background-color: purple;
+}
+
+.contenedor-imagen img {
+    width: 20%;
+    object-fit: cover;
+    margin: 2px;
+    margin-bottom: 25px;
+    display: inline-block;
+    box-shadow: 0 0 10px 0 green;
+    cursor: pointer;
+    overflow: hidden;
+}
